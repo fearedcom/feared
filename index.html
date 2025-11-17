@@ -1,176 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Feared Model Management | Coming Soon</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<!-- LOGO AREA (REPLACES THE OLD ONE) -->
+<header class="logo-area" style="flex-direction: column; align-items: center; gap: 32px;">
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #000;
-      color: #f5f5f5;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .page-wrapper {
-      max-width: 900px;
-      width: 100%;
-    }
-
-    .card {
-      border-radius: 30px;
-      padding: 50px 40px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.06);
-      box-shadow: 
-        0 30px 60px rgba(0,0,0,0.8),
-        0 0 50px rgba(255,255,255,0.04);
-      backdrop-filter: blur(12px);
-    }
-
-    /* NEW — FULL-WIDTH LOGO AREA */
-    .logo-full {
-      width: 100%;
-      max-width: 500px;
-      margin: 0 auto 40px auto;
-      padding: 30px 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #000; /* ensures seamless blend with your actual logo */
-      border-radius: 12px;
-      border: 1px solid rgba(255,255,255,0.08);
-      box-shadow:
-        0 25px 60px rgba(0,0,0,0.85),
-        0 0 40px rgba(255,255,255,0.06);
-    }
-
-    .logo-full img {
-      width: 80%;
-      height: auto;
-      opacity: 0.9;
-      object-fit: contain;
-    }
-
-    .coming-soon-tagline {
-      font-size: 0.9rem;
-      text-transform: uppercase;
-      letter-spacing: 0.26em;
-      color: rgba(245,245,245,0.75);
-      text-align: center;
-      margin-bottom: 12px;
-    }
-
-    .coming-soon-main {
-      text-align: center;
-      font-size: 1.6rem;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.22em;
-      margin-bottom: 30px;
-    }
-
-    .hero-copy {
-      font-size: 1rem;
-      line-height: 1.75;
-      color: rgba(245,245,245,0.88);
-      margin-bottom: 28px;
-      text-align: center;
-    }
-
-    .hero-copy p + p {
-      margin-top: 16px;
-    }
-
-    .founder-line {
-      margin-top: 18px;
-      font-size: 0.9rem;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: rgba(245,245,245,0.72);
-      text-align: center;
-    }
-
-    .location-row {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      align-items: center;
-      justify-content: center;
-      margin-top: 40px;
-      padding-top: 22px;
-      border-top: 1px solid rgba(255,255,255,0.07);
-      color: rgba(245,245,245,0.75);
-      text-align: center;
-    }
-
-    .location-chip {
-      padding: 7px 16px;
-      border-radius: 999px;
-      border: 1px solid rgba(245,245,245,0.3);
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      font-size: 0.8rem;
-    }
-  </style>
-</head>
-<body>
-
-  <div class="page-wrapper">
-    <main class="card">
-
-      <!-- FULL-WIDTH LOGO AREA -->
-      <div class="logo-full">
-        <!-- Replace this image with your REAL logo file -->
-        <img src="logo-placeholder.png" alt="Feared Model Management Logo Placeholder">
-      </div>
-
-      <div class="coming-soon-tagline">New York City</div>
-      <div class="coming-soon-main">A new chapter is coming</div>
-
-      <div class="hero-copy">
-        <p>
-          In a city built on ambition, electricity, and evolution, Feared Model Management
-          rises with a vision that refuses to whisper. It speaks in presence, confidence,
-          and the artistry of becoming.
-        </p>
-
-        <p>
-          Guided by its visionary founder, Feared will reshape the landscape of modeling
-          in New York City. Not through imitation, but through individuality. Not through
-          noise, but through undeniable gravity.
-        </p>
-
-        <p>
-          This is the beginning of a movement. A home for models who walk with purpose,
-          who breathe intention into every frame, who transform rooms without effort.
-        </p>
-
-        <p>
-          The future of modeling in New York is about to shift. And Feared will be the
-          one to turn the axis.
-        </p>
-
-        <p class="founder-line">Arriving soon.</p>
-      </div>
-
-      <footer class="location-row">
-        <div class="location-chip">NYC • Coming Soon</div>
-        <div>Where presence becomes power. Where talent becomes legacy.</div>
-      </footer>
-
-    </main>
+  <div class="logo-frame"
+       style="
+         width: 100%;
+         max-width: 520px;
+         height: auto;
+         padding: 40px 0;
+         border-radius: 24px;
+         border: 1px solid rgba(255,255,255,0.12);
+         background: #000;
+         box-shadow:
+           0 20px 50px rgba(0,0,0,0.85),
+           0 0 30px rgba(255,255,255,0.05);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+       ">
+    <!-- Replace this with your real logo -->
+    <img src="logo-placeholder.png"
+         alt="Feared Model Management Logo"
+         style="width: 80%; height: auto; object-fit: contain; opacity: 0.95;">
   </div>
 
-</body>
-</html>
+</header>
