@@ -69,59 +69,13 @@
     }
 
     .logo-area {
+      width: 100%;
       display: flex;
+      justify-content: center;
       align-items: center;
-      gap: 24px;
-      margin-bottom: 28px;
+      margin-bottom: 40px;
       position: relative;
       z-index: 1;
-    }
-
-    .logo-frame {
-      width: 120px;
-      height: 120px;
-      border-radius: 26px;
-      border: 1px solid rgba(255,255,255,0.16);
-      background: radial-gradient(circle at top, #181818, #050505);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      box-shadow:
-        0 16px 40px rgba(0,0,0,0.85),
-        0 0 35px rgba(255,255,255,0.08);
-    }
-
-    .logo-frame img {
-      max-width: 80%;
-      max-height: 80%;
-      opacity: 0.85;
-      object-fit: contain;
-    }
-
-    .logo-text-block {
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .eyebrow {
-      text-transform: uppercase;
-      letter-spacing: 0.24em;
-      font-size: 0.7rem;
-      color: rgba(245,245,245,0.7);
-    }
-
-    .brand-name {
-      font-size: 1.8rem;
-      letter-spacing: 0.22em;
-      text-transform: uppercase;
-      font-weight: 500;
-    }
-
-    .brand-subtitle {
-      font-size: 0.9rem;
-      color: rgba(245,245,245,0.7);
     }
 
     .divider {
@@ -226,16 +180,6 @@
 
       .logo-area {
         flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .logo-frame {
-        width: 96px;
-        height: 96px;
-      }
-
-      .brand-name {
-        font-size: 1.4rem;
       }
 
       .coming-soon-main {
@@ -256,33 +200,12 @@
 <body>
   <div class="page-wrapper">
     <main class="card">
-<!-- LOGO AREA (REPLACES THE OLD ONE) -->
-<header class="logo-area" style="flex-direction: column; align-items: center; gap: 32px;">
 
-  <div class="logo-frame"
-       style="
-         width: 100%;
-         max-width: 520px;
-         height: auto;
-         padding: 40px 0;
-         border-radius: 24px;
-         border: 1px solid rgba(255,255,255,0.12);
-         background: #000;
-         box-shadow:
-           0 20px 50px rgba(0,0,0,0.85),
-           0 0 30px rgba(255,255,255,0.05);
-         display: flex;
-         align-items: center;
-         justify-content: center;
-       ">
-    <!-- Replace this with your real logo -->
-    <img src="logo.png"
-         alt="Feared Model Management Logo"
-         style="width: 80%; height: auto; object-fit: contain; opacity: 0.95;">
-  </div>
-
-</header>
-
+      <header class="logo-area">
+        <img src="logo.png"
+             alt="Feared Model Management Logo"
+             style="width: 100%; max-width: 520px; height: auto; display: block; object-fit: contain;">
+      </header>
 
       <div class="divider"></div>
 
@@ -327,13 +250,14 @@
 
       <footer class="location-row">
         <div class="location-chip">
-          NYC &bull; Coming Soon
+          NYC • Coming Soon
         </div>
         <div class="subtext">
           Curated representation for those who are ready to be watched, not simply seen.
           <span class="underline">Feared Model Management</span>
         </div>
       </footer>
+
     </main>
   </div>
 </body>
