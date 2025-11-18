@@ -30,7 +30,7 @@
     .card {
       border-radius: 32px;
       padding: 40px 32px 36px;
-      background: #000; /* PURE BLACK INTERIOR */
+      background: #000; /* pure black interior */
       border: 1px solid rgba(255,255,255,0.06);
       box-shadow:
         0 30px 60px rgba(0,0,0,0.85),
@@ -40,33 +40,7 @@
       overflow: hidden;
     }
 
-    .card::before,
-    .card::after {
-      content: "";
-      position: absolute;
-      border-radius: 999px;
-      opacity: 0.22;
-      mix-blend-mode: screen;
-      pointer-events: none;
-    }
-
-    .card::before {
-      width: 320px;
-      height: 320px;
-      background: radial-gradient(circle, #ffffff 0%, transparent 60%);
-      top: -120px;
-      right: -80px;
-      filter: blur(6px);
-    }
-
-    .card::after {
-      width: 260px;
-      height: 260px;
-      background: radial-gradient(circle, #ffffff 0%, transparent 65%);
-      bottom: -120px;
-      left: -60px;
-      filter: blur(10px);
-    }
+    /* removed the ::before and ::after white glow accents */
 
     .logo-area {
       width: 100%;
